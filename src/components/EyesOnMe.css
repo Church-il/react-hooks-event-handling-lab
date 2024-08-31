@@ -1,0 +1,29 @@
+/* EyesOnMe.css */
+#eyes-on-me {
+  display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center;     /* Vertically center the button */
+  height: 100vh;           /* Full viewport height */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  font-size: 1.5rem;       /* Larger text */
+  padding: 1rem 2rem;      /* Add padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green background */
+  color: white;            /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: scale(1.05);    /* Slightly enlarge the button */
+}
+
+button:focus {
+  outline: none;
+}
